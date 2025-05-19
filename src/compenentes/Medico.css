@@ -1,0 +1,91 @@
+/* Estilos generales del formulario */
+.formMedico {
+  max-width: 750px;
+  margin: 40px auto;
+  padding: 30px 40px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 0 18px rgba(6, 166, 172, 0.747);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Encabezados */
+.formMedico h1 {
+  font-size: 22px;
+  text-align: center;
+  color: #2c3e50;
+  margin: 20px 0 25px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+/* Etiquetas */
+.formMedico label {
+  display: block;
+  margin-top: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Inputs y selects */
+.formMedico input,
+.formMedico select {
+  width: 100%;
+  padding: 10px 12px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border 0.3s ease;
+  background-color: #fafafa;
+}
+
+.formMedico input:focus,
+.formMedico select:focus {
+  border-color: #3498db;
+  outline: none;
+  background-color: #fff;
+}
+
+/* Inputs tipo archivo */
+.formMedico input[type="file"] {
+  background-color: #f4f4f4;
+  padding: 8px;
+}
+
+/* Span de errores */
+.formMedico span {
+  color: #e74c3c;
+  font-size: 13px;
+  margin-top: 4px;
+  display: block;
+}
+
+/* Botón enviar */
+.formMedico button[type="submit"] {
+  width: 100%;
+  background-color: cadetblue;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  margin-top: 30px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.formMedico button[type="submit"]:hover {
+  background-color:darkcyan;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .formMedico {
+    padding: 20px;
+  }
+
+  .formMedico h1 {
+    font-size: 18px;
+  }
+}

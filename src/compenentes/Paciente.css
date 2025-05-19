@@ -1,0 +1,67 @@
+/* Archivo: RegistroPaciente.css */
+
+.formPaciente {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(8, 185, 171, 0.658);
+  font-family: Arial, sans-serif;
+}
+
+.formPaciente h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+}
+
+.formPaciente label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.formPaciente input,
+.formPaciente select {
+  width: 100%;
+  padding: 8px 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.formPaciente input[type="date"] {
+  padding: 7px 10px;
+}
+
+.formPaciente input[type="file"] {
+  padding: 5px 0;
+}
+
+.formPaciente span {
+  color: red;
+  font-size: 0.9rem;
+  display: block;
+  margin-top: 5px;
+}
+
+.formPaciente button {
+  margin-top: 2rem;
+  width: 100%;
+  padding: 10px;
+  background-color:cadetblue;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.formPaciente button:hover {
+  background-color:darkcyan;
+}
